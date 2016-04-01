@@ -1,11 +1,17 @@
-<div class="header">
-  {{#link-to 'index'}}<span class="logo">HOME</span>{{/link-to}}
-  <h1 id="title">Ask Me</h1>
-</div>
+<div class="pageWrapper">
+  <div class="header">
+    <span>{{#link-to 'index'}}<h1 class="logo">Ask Me</h1>{{/link-to}}</span>
+    <div class="headerText">
+      <p class="lead">Because if it's not love</p>
+      <p class="lead">Then it's the bomb, the bomb, the bomb, the bomb, the bomb, the bomb, the bomb</p>
+      <p class="lead">That will bring us together</p>
+    </div>
+  </div>
 
-{{outlet}}
+  {{outlet}}
 
-<div class="footer">
-<hr>
-<p>Created at Epicodus by Taylor Pokoj | &copy; 2016 All Rights Reserved</p>
+  <div class="footer">
+    <hr>
+    <p>Created at Epicodus by Taylor Pokoj | &copy; 2016 All Rights Reserved</p>
+  </div>
 </div>

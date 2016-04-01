@@ -1,0 +1,79 @@
+body {
+  background: linear-gradient(to right, rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url("/img/thesmiths.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: oldlace;
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+}
+
+.pageWrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: 5px;
+}
+
+.lead {
+  font-weight: lighter;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  transition: all 300ms linear;
+}
+
+a:hover {
+  letter-spacing: 1px;
+  color: mistyrose;
+  transition: all 300ms linear;
+}
+
+.questionList {
+  border: 1px solid aquamarine;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.questionList > .ember-view {
+  width: 30%;
+  border: 1px solid cyan;
+  margin: 2%;
+  text-align: center;
+  padding: 1%;
+  height: 100px;
+}
+.questionItem {
+  border: 1px solid mistyrose;
+
+}
+
+
+.footer {
+  text-align: center;
+}
+
+hr {
+  width: 60%;
+}
