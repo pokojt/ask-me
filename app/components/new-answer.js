@@ -5,7 +5,7 @@ export default Ember.Component.extend({
     toggleDetail() {
       this.toggleProperty('answerFormShowing');
     },
-    saveNewAnswer(answer) {
+    saveNewAnswer() {
       var formInputs = {
         author: this.get('author') ? this.get('author'):"",
         content: this.get('content') ? this.get('content'):"",

@@ -24,7 +24,7 @@ export default Ember.Route.extend({
       question.get('answers').addObject(newAnswer);
       newAnswer.save().then(function() {
         return question.save();
-      })
+      });
       this.transitionTo('question', formInputs.question);
     }
   }
