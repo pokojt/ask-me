@@ -1,13 +1,13 @@
 
+{{new-question saveQuestion="saveQuestion"}}
 
-<h2>Question List:</h2>
+<h2>Question List</h2>
 <div class="questionList">
   {{#each model as |question|}}
   {{question-tile question=question}}
 {{/each}}
 </div>
 
-{{new-question saveQuestion="saveQuestion"}}
 
 
 <!-- {{new-question saveQuestion="saveQuestion" question=model}} -->
