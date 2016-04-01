@@ -1,11 +1,11 @@
 {{question-detail deleteQuestion="deleteQuestion" question=model}}
 
-
-
 {{edit-question saveQuestionEdit="saveQuestionEdit" question=model}}
 
+{{new-answer saveNewAnswer="saveNewAnswer" question=model}}
 
-<h3>Answers:</h3>
-<!--
-{{answer-tile}}
-{{new-answer}} -->
+<div class="answerList">
+  {{#each model.answers as |answer|}}
+    {{answer-tile answer=answer}}
+  {{/each}}
+</div>

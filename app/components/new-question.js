@@ -10,6 +10,7 @@ export default Ember.Component.extend({
         content: this.get('content') ? this.get('content'):"",
         author: this.get('author') ? this.get('author'):"",
         notes: this.get('notes') ? this.get('notes'):"",
+        answers: this.get('answers'),
       };
       this.toggleProperty('questionFormShowing');
       this.set('name', "");
