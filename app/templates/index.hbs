@@ -2,8 +2,8 @@
 
 <h2>Question List:</h2>
 <div class="questionList">
-  {{#each model.question as |question|}}
-  {{question-tile question=model}}
+  {{#each model as |question|}}
+  {{question-tile question=question}}
 {{/each}}
 </div>
 
