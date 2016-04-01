@@ -1,3 +1,4 @@
+
 {{question-detail deleteQuestion="deleteQuestion" question=model}}
 
 {{edit-question saveQuestionEdit="saveQuestionEdit" question=model}}
@@ -5,6 +6,7 @@
 {{new-answer saveNewAnswer="saveNewAnswer" question=model}}
 
 <div class="answerList">
+  <h3 class="listHeader">____Answers____</h3>
   {{#each model.answers as |answer|}}
     {{answer-tile answer=answer}}
   {{/each}}

@@ -4,7 +4,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: oldlace;
-  font-family: 'Raleway', sans-serif !important;
+  font-family: 'Raleway', sans-serif;
   font-weight: lighter;
 }
 
@@ -88,7 +88,7 @@ button {
   padding: 10px 20px;
   background: rgba(0, 0, 0, 0.5);
   color: white;
-  margin: 2%;
+  margin: 1%;
   transition: all 500ms ease-in-out;
 }
 
@@ -135,4 +135,40 @@ hr {
 .addQuestion {
   text-align: center;
   margin-top: 2%;
+}
+
+/* ------------------------------- Question Detail page Styles ---------*/
+
+
+.questionDetailItem {
+  border: 1px solid mistyrose;
+  padding: 2%;
+  margin-top: 8%;
+  background: rgba(0,0,0, .6);
+}
+
+.detailAuthor {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 11px;
+}
+
+input, textarea {
+  background: rgba(255,255,255, .8);
+  border: none;
+}
+
+
+.answerAuthor {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 11px;
+  color: mistyrose;
+}
+
+.answerItem {
+  background: rgba(0,0,0, .6);
+  padding: 2%;
+  margin: 1%;
+  border: 1px solid rgba(255,255,255, .4);
 }
