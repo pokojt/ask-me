@@ -4,6 +4,8 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'ask-me',
     environment: environment,
+    contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
+    firebase: 'https://ask-me-taylor.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {

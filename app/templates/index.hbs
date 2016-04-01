@@ -1,0 +1,10 @@
+<h1>This is the homepage !</h1>
+
+<h2>Question List:</h2>
+<div class="questionList">
+  {{#each model.question as |question|}}
+  {{question-tile question=model}}
+{{/each}}
+</div>
+
+{{new-question saveQuestion="saveQuestion" question=model}}
