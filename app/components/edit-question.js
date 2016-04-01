@@ -12,9 +12,6 @@ export default Ember.Component.extend({
         notes: this.get('notes'),
       };
       this.toggleProperty('editFormShowing');
-      this.set('name', "");
-      this.set('author',"");
-      this.set('notes',"");
       this.sendAction('saveQuestionEdit', question, formInputs);
     }
   }
