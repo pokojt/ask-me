@@ -1,4 +1,5 @@
 <div class="questionItem">
-  {{question.content}}
+  {{#link-to 'question' question.id}}{{question.content}}{{/link-to}}
   <p>Asked by <em>{{question.author}}</em></p>
+  <hr>
 </div>
